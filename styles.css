@@ -110,11 +110,13 @@ footer {
 }
 
 .circle-logo {
-    width: 250px;    /* adjust size here */
-    height: 250px;
+    width: 320px;    /* adjust size here */
+    height: 320px;
     border-radius: 50%;   /* makes it circular */
     object-fit: cover;
-    border: 6px solid #ff6600; /* optional border */
+    display: block;
+    margin: 20px auto;
+    border: 6px solid #000000ff; 
 }
 
 .circle-text {
@@ -124,4 +126,16 @@ footer {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #333;
+}
+.curved-text {
+    width: 350px;     /* adjust to match image size */
+    margin: 10px auto 0;
+}
+
+.curved-text text {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    fill: #333;       /* text color */
+    text-transform: uppercase;
 }
