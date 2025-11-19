@@ -104,3 +104,24 @@ footer {
 .hidden {
     display: none;
 }
+.circle-logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.circle-logo {
+    width: 250px;    /* adjust size here */
+    height: 250px;
+    border-radius: 50%;   /* makes it circular */
+    object-fit: cover;
+    border: 6px solid #ff6600; /* optional border */
+}
+
+.circle-text {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+}
