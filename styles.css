@@ -42,9 +42,8 @@ nav ul li a {
 }
 
 .hero {
-    padding: 100px 25px;
+    padding: 40px 25px;
     text-align: center;
-    background: transparent;
 }
 
 .hero-image {
@@ -55,9 +54,11 @@ nav ul li a {
     margin-bottom: 20px;
 }
 .top-image {
-    width: 100%;
-    height: auto;
+    width: 60%;     /* smaller */
+    max-width: 700px;
     display: block;
+    margin: 20px auto; /* centered */
+    border-radius: 10px; /* optional – looks nicer */
 }
 
 .cta {
