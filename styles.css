@@ -4,74 +4,83 @@
     box-sizing: border-box;
 }
 
+/* BASIC BODY */
 body {
     background: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+/* CIRCLE LOGO + CURVED TEXT */
+.circle-logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.circle-logo {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 6px solid #ff6600;
+}
+
+/* CURVED TEXT */
+.curved-text {
+    width: 420px;
+    margin: 10px auto 0;
+}
+
+.curved-text text {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    fill: #333;
+    text-transform: uppercase;
+}
+
+/* NAVIGATION */
 nav {
     display: flex;
     justify-content: space-between;
-    background: #222;
+    align-items: center;
     padding: 15px 25px;
+    background: #222;
 }
 
-nav .logo {
+.logo {
     color: white;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
-nav ul {
+.nav-links {
     display: flex;
     gap: 20px;
     list-style: none;
 }
 
-nav ul li a {
+.nav-links a {
     color: white;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .donate-btn {
     background: #ff6600;
-    padding: 6px 12px;
-    border-radius: 5px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
-.hero {
-    padding: 40px 25px;
-    text-align: center;
-}
-
-.hero-image {
-    width: 100%;
-    max-height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-.top-image {
-    width: 60%;     /* smaller */
-    max-width: 700px;
-    display: block;
-    margin: 20px auto; /* centered */
-    border-radius: 10px; /* optional – looks nicer */
-}
-
-.cta {
-    background: #0077ff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
-}
-
+/* CONTENT SECTIONS */
 .section {
     padding: 40px 25px;
+    text-align: center;
 }
 
 .program-list {
@@ -87,13 +96,7 @@ nav ul li a {
     border-radius: 6px;
 }
 
-footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
+/* VOLUNTEER SECTION */
 #volunteerForm {
     margin-top: 20px;
     display: flex;
@@ -104,38 +107,11 @@ footer {
 .hidden {
     display: none;
 }
-.circle-logo-container {
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-}
-
-.circle-logo {
-    width: 320px;    /* adjust size here */
-    height: 320px;
-    border-radius: 50%;   /* makes it circular */
-    object-fit: cover;
-    display: block;
-    margin: 20px auto;
-    border: 6px solid #000000ff; 
-}
-
-.circle-text {
-    margin-top: 15px;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #333;
-}
-.curved-text {
-    width: 350px;     /* adjust to match image size */
-    margin: 10px auto 0;
-}
-
-.curved-text text {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    fill: #333;       /* text color */
-    text-transform: uppercase;
+    padding: 30px 20px;
 }
