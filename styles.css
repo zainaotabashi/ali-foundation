@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 15px 25px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.donate-btn {
+    background: #ff6600;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+.cta {
+    background: #0077ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.section {
+    padding: 40px 25px;
+}
+
+.program-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.program {
+    background: #eee;
+    padding: 20px;
+    flex: 1;
+    border-radius: 6px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#volunteerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
+}
