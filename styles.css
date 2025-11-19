@@ -5,8 +5,14 @@
 }
 
 body {
+    background-image: url('background.jpg');
+    background-size: cover;         /* Makes it fill screen */
+    background-position: center;    /* Centers it */
+    background-attachment: fixed;   /* Keeps image still when scrolling */
+    background-repeat: no-repeat;   /* No tile */
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
