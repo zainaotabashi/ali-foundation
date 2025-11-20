@@ -80,8 +80,8 @@ nav {
 
 /* Curved Text */
 .curved-text {
-    width: 380px;
-    margin: -220px auto 20px; /* PULL TEXT WAY UP */
+    width: 420px;
+    margin: -110px auto 0; /* lowered a bit so it no longer overlaps */
     display: block;
 }
 
@@ -91,6 +91,7 @@ nav {
     letter-spacing: 2px;
     fill: #333;
 }
+
 
 
 /* ------------------------------
