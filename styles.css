@@ -118,16 +118,18 @@ nav {
     text-align: center;
 }
 
-.section h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+.section h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    color: #222;
 }
 
 .section p {
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
 
 /* ------------------------------
    PROGRAM LIST (HOME PAGE)
